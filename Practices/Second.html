@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Myntra cart</title>
+  <link href="Second.css" rel="stylesheet">
+</head>
+<body>
+  <button class="a" onclick="cartQuantity = cartQuantity+1;document.querySelector('#summary').innerText='your bag has '+ cartQuantity +  ' item'">Add to bag</button><br><br>
+  
+
+  <button class="b">Move to wishlist</button><br><br>
+  <button class="c" onclick="cartQuantity=cartQuantity-1;
+  document.querySelector('#summary').innerText='your bag has' +cartQuantity+ 'item' ">cancel</button><br><br>
+  <h1 id="summary">Your bag have  item</h1>
+ 
+  
+  <!--Create two button using class and id-->
+  <button id="click" onclick="alert('Thanks for click')">click me</button>
+  <button class="ok">submit</button>
+
+  
+  <script src="Second.js"></script>
+</body>
+</html>
